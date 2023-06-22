@@ -7,7 +7,7 @@ const {
   withTransaction,
   addBank,
   twoSessions,
-} = require('../Controller/userController')
+} = require('../Controller/controller')
 
 router.post('/sign-in', addUser)
 router.post('/normal-transaction', manualTransaction)

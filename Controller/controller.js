@@ -158,13 +158,6 @@ const withTransaction = async (req, res) => {
   }
 }
 
-const addBank = async (req, res) => {
-  const bank = new Bank(req.body).save()
-  return res
-    .status(messages.status.statusSuccess)
-    .json({ sMessage: 'Bank Added' })
-}
-
 const twoSessions = async (req, res) => {
   const session_1 = await mongoose.startSession()
   const session_2 = await mongoose.startSession()

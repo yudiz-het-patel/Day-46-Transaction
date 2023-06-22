@@ -11,15 +11,7 @@ const messages = {
   transactionDone: { sMessage: 'Transaction done!!' },
 
   insufficientBalance: { sMessage: 'insufficient balance!!' },
-
-  carFetchingError: { sMessage: 'Error in fetching Cars!!' },
-  brandFetchingError: { sMessage: 'Error in fetching Brands!!' },
-  sellerFetchingError: { sMessage: 'Error in fetching Sellers!!' },
-
-  successToBuyCar: { sMessage: 'car sell successfully!!' },
-  failedToBuyCar: { sMessage: 'failed to buy car!!' },
-  sellerNotMatched: { sMessage: "This seller dosen't have this car!!" },
-
+  
   notFound: { sMessage: 'Data not found, Enter valid URL!!' },
 }
 
