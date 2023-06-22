@@ -1,0 +1,43 @@
+
+
+official docs of session
+https://www.mongodb.com/docs/manual/reference/method/Session.abortTransaction/
+
+- official docs of transaction
+https://www.mongodb.com/docs/manual/core/transactions/
+
+- About storage engine which mongodb use
+https://medium.com/@edberttantra/database-adventures-mongodb-internals-and-benchmarking-d2cd6e128128
+https://www.mongodb.com/docs/manual/core/wiredtiger/
+
+
+- About internal details
+https://medium.com/@hnasr/mongodb-internal-architecture-9a32f1403d6f
+
+
+
+- some useful blogs
+    - https://medium.com/hackernoon/mongodb-transactions-5654cdb8fd24
+- use below link to perform practical(p1)
+    - https://mydbops.wordpress.com/2020/08/30/mongodb-transaction-a-walk-through/
+==================== practical-1 ====================
+
+- get insights of mongodb
+https://www.youtube.com/watch?v=ONzdr4SmOng&ab_channel=HusseinNasser
+
+
+- ==================== practical-2 ====================
+- how to change default port
+- go to below file location
+mongod.conf
+- location of mongodb config file
+- /etc/mongod.conf
+- change port
+- sudo service mongod restart
+- verify port change
+- mongo--port 27018
+
+*Doubts*
+1. await Log.create([req.body], {}, { session })    
+   - if we remove array from 1st argument then it throws error
+     even after throwing error The transaction is done successfully, why??
